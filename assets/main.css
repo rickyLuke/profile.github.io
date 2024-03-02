@@ -1,0 +1,27 @@
+body,
+html{
+	width: 100vw;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex{
+	display: flex;
+}
+
+header{
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background: lightgrey;
+}

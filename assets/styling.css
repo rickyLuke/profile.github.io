@@ -1,0 +1,19 @@
+.intro{
+	padding: 20px 10px;
+	background: black;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+
+.intro div{
+	width: 80%;
+}
+
+.intro h1{
+	font-size: 45px;
+	font-family: arial;
+}
