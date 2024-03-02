@@ -25,6 +25,13 @@
 	color: var(--white);
 }
 
+.languages_vector{
+	position: absolute;
+	left: auto;
+	right: auto;
+	top: 70vh;
+}
+
 .about{
 /*	height: 90vh;*/
 }
