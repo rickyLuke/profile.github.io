@@ -1,15 +1,17 @@
 .intro{
 	padding: 20px 10px;
-	background: var(--black);
+	background: var(--darkblue);
 	width: 100vw;
-	height: 70vh;
+	height: 90vh;
 	overflow: hidden;
 	color: var(--white);
 	align-items: center;
 	justify-content: center;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
 }
+
+/*.intro .container{
+	padding-top: 25vh;
+}*/
 
 .intro h1{
 	font-size: 35px;
