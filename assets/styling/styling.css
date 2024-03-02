@@ -7,6 +7,7 @@
 	color: var(--white);
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 }
 
 /*.intro .container{
@@ -14,6 +15,16 @@
 }*/
 
 .intro h1{
+	padding-top: 20vh;
 	font-size: 35px;
 	font-family: arial;
+}
+
+.intro a{
+	padding-bottom: 5vh;
+	color: var(--white);
+}
+
+.about{
+	height: 100vh;
 }
