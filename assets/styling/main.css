@@ -1,3 +1,7 @@
+:root{
+	--black: rgb(22,22,22);
+}
+
 body,
 html{
 	width: 100vw;
