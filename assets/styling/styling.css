@@ -8,7 +8,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 }
 
 /*.intro .container{
@@ -16,7 +16,7 @@
 }*/
 
 .intro h1{
-	padding-top: 20vh;
+	padding-top: 10vh;
 	font-size: 35px;
 	font-family: arial;
 }
