@@ -24,6 +24,10 @@ a{
 	font-family: arial;
 }
 
+img{
+	width: 100%;
+}
+
 .flex{
 	display: flex;
 }
@@ -36,15 +40,35 @@ a{
 	display: block;
 }
 
+.menu_btn{
+	width: 35px;
+	height: auto;
+	box-sizing: border-box;
+}
+
 header{
 	width: 100vw;
 	height: 10vh;
 	position: fixed;
+	display: flex;
+	align-items: center;
 	left: 0;
 	right: 0;
 	top: 0;
 	background: var(--grey);
 }
+
+header .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header h1{
+	font-family: "times new romans" !important;
+}
+
+
 
 p{
 	font-size: 16px;
