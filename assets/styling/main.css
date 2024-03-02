@@ -1,5 +1,7 @@
 :root{
 	--black: rgb(22,22,22);
+	--grey: rgb(198,198,198);
+	--white: rgb(244,244,244);
 }
 
 body,
@@ -8,6 +10,7 @@ html{
 	height: auto;
 	overflow-x: hidden;
 	overflow-y: auto;
+	background: var(--white) !important;
 }
 
 *{
@@ -20,6 +23,14 @@ html{
 	display: flex;
 }
 
+.spacer{
+	width: 100vw;
+	height: 50px;
+	background: transparent;
+	box-sizing: border-box;
+	display: block;
+}
+
 header{
 	width: 100vw;
 	height: 10vh;
@@ -27,5 +38,10 @@ header{
 	left: 0;
 	right: 0;
 	top: 0;
-	background: lightgrey;
+	background: var(--grey);
+}
+
+p{
+	font-size: 16px;
+	font-family: arial;
 }

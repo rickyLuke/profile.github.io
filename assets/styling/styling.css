@@ -2,18 +2,16 @@
 	padding: 20px 10px;
 	background: var(--black);
 	width: 100vw;
-	height: 100vh;
+	height: 70vh;
 	overflow: hidden;
-	color: white;
+	color: var(--white);
 	align-items: center;
 	justify-content: center;
-}
-
-.intro div{
-	width: 80%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 .intro h1{
-	font-size: 45px;
+	font-size: 35px;
 	font-family: arial;
 }
