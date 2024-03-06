@@ -8,6 +8,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin-bottom: 200px;
 }
 
 /*.intro .container{
@@ -15,7 +16,7 @@
 }*/
 
 .intro h1{
-	padding-top: 20vh;
+	padding-top: 10vh;
 	font-size: 35px;
 	font-family: arial;
 }
@@ -23,6 +24,13 @@
 .intro a{
 	padding-bottom: 5vh;
 	color: var(--white);
+}
+
+.languages_vector{
+	position: absolute;
+	left: auto;
+	right: auto;
+	top: 70vh;
 }
 
 .about{
